@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ToDoItem">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp"
+        >
+
+
+        <LinearLayout
+            android:id="@+id/addList"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp"
+            >
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Add new List" />
+
+            <EditText
+                android:id="@+id/editTxt"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="50dp"
+                android:textFontWeight="100"
+                android:textSize="10.0dip"
+                android:text="are you that boiii" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp"
+            android:gravity="center"
+            android:includeFontPadding="false"
+
+            >
+
+            <TextView
+                android:id="@+id/ListText0"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="50dp"
+                android:textFontWeight="100"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:textSize="10.0dip"
+                android:text="are you that boiii" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:includeFontPadding="false"
+
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp"
+            >
+
+            <TextView
+                android:id="@+id/ListText1"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="50dp"
+                android:textFontWeight="100"
+                android:textSize="10.0dip"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:text="are you that boiii" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/line3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:includeFontPadding="false"
+
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp"
+            >
+
+            <TextView
+                android:id="@+id/ListText2"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:layout_height="50dp"
+                android:textFontWeight="100"
+                android:textSize="10.0dip"
+                android:text="are you that boiii" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/line4"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:includeFontPadding="false"
+
+            android:orientation="horizontal"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp"
+            >
+
+            <TextView
+                android:id="@+id/ListText3"
+                android:layout_width="0dp"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:layout_weight="3"
+                android:layout_height="50dp"
+                android:textFontWeight="100"
+                android:textSize="10.0dip"
+                android:text="are you that boiii" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/line5"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:includeFontPadding="false"
+
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp"
+            >
+
+            <TextView
+                android:id="@+id/ListText4"
+                android:layout_width="0dp"
+                android:layout_weight="3"
+                android:layout_height="50dp"
+                android:textFontWeight="100"
+                android:gravity="center"
+                android:includeFontPadding="false"
+                android:textSize="10.0dip"
+                android:text="are you that boiii" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
